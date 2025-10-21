@@ -5,12 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan 2a</title>
+    <style>
+        
+    </style>
 </head>
 <body>
-    <table>
+    <table border="3" cellspacing="5" cellpadding="10" bgcolor="lightblue">
+        <thead>
         <tr>
-            <th>Data Mahasiswa</th>
+            <th colspan="6" class="main-header">Data Mahasiswa</th>
         </tr>
+        <tr>
+            <th rowspan="2">No.</th>
+            <th rowspan="2">NRP</th>
+            <th colspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+            <th rowspan="2">No.Hp</th>
+        </tr>
+        <tr>
+            <th>Nama Depan</th>
+            <th>Nama Belakang</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr class="data-row">
+                <td>1</td>
+                <td>113040001</td>
+                <td>Asep</td>
+                <td>Setia</td>
+                <td>Setiabudhi</td>
+                <td>081234567890</td>
+            </tr>
+            <tr class="data-row">
+                <td rowspan="2">2</td>
+                <td rowspan="2">113040011</td>
+                <td rowspan="2">Dani</td>
+                <td rowspan="2">Gunawan</td>
+                <td rowspan="2">Lembang</td>
+                <td class="hp-cell">089038131212</td>
+            </tr>
+            <tr class="data-row">
+                <td class="hp-cell">081392482222</td>
+             </tr>
+        </tbody>
     </table>
 </body>
 </html>
