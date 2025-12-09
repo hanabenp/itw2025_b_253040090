@@ -61,7 +61,7 @@ sidebar-dua {
 /* Latihan 3 */
 .container-tiga {
     max-width: 800px;
-    margin; 50px auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -98,7 +98,7 @@ sidebar-dua {
 }
 
 .card .content {
-    tedxt-align: center;
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -112,18 +112,18 @@ sidebar-dua {
     width: 500px;
     height: 500px;
     margin: 50px auto;
-    border: 5px solid #black;
+    border: 5px solid black;
 }
 
 .kotak  {
-    width; 100px;
+    width: 100px;
     height: 100px;
     background-color: brown;
     text-align: center;
     color: white;
     text-align: center;
     line-height: 100px;
-    margin: :auto;
+    margin: auto;
     display: flex;
 }
 
@@ -134,7 +134,7 @@ sidebar-dua {
 
 /* Responsive */
 @media( min-width: 600px ) {
-.container-dua {
+.container-dua 
    display: flex;
   justify-content: space-between;
 }
